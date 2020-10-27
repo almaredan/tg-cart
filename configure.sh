@@ -1,2 +1,2 @@
 pip install -r requriements.txt
-python makemigrations
+python makemigrations.py
