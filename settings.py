@@ -4,7 +4,7 @@ import os
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-DATABASE = 'tg-cart.sqlite'
+DATABASE = os.getenv('DATABASE')
 API_TOKEN = os.getenv('API_TOKEN')
 MY_ID = os.getenv('MY_ID')
 

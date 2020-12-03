@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm migrations/*
-python makemigrations
+python makemigrations.py

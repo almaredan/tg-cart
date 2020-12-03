@@ -1,10 +1,11 @@
 import peewee as pw
 from peewee import DoesNotExist
+from playhouse.db_url import connect
 
 import settings
 import utils
 
-database = pw.SqliteDatabase(settings.DATABASE)
+database = connect(settings.DATABASE)
 
 
 class BaseModel(pw.Model):
