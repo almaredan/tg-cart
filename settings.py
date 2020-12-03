@@ -4,7 +4,7 @@ import os
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
-DATABASE = os.getenv('DATABASE')
+DATABASE = os.getenv('DATABASE_URL')
 API_TOKEN = os.getenv('API_TOKEN')
 MY_ID = os.getenv('MY_ID')
 
