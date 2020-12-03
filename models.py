@@ -5,6 +5,7 @@ from playhouse.db_url import connect
 import settings
 import utils
 
+print(settings.DATABASE)
 database = connect(settings.DATABASE)
 
 
