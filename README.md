@@ -4,6 +4,6 @@
 Использованы следующие пакеты:
 * ORM: `peewee`
 * BE framework: `aiogram`
-* DB: `sqlite`
+* DB: `heroku pgsql`
 * Utils: `beatifulsoup4`
 
